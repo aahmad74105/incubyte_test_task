@@ -1,24 +1,41 @@
-# README
+# Incubyte TDD Assessment    
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Set up the project
+#### Clone the Repo:   
+`git clone https://github.com/aahmad74105/incubyte_test_task`
 
-Things you may want to cover:
+#### change the directory:   
 
-* Ruby version
+`cd incubyte_test_task`
 
-* System dependencies
+#### Install Dependencies:   
+`bundle install`   
+`rails db:create`     
 
-* Configuration
+`rails db:migrate`     
 
-* Database creation
+#### Run the Server:
 
-* Database initialization
+`rails server`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Add RSpec to the Gemfile:
 
-* Deployment instructions
+`gem 'rspec-rails'`   
 
-* ...
+run, 
+
+`bundle install`
+
+#### Initialize RSpec:    
+`rails generate rspec:install`   
+
+#### Run RSpec:
+Now, you run using command:
+
+`bundle exec rspec`   
+or   
+`rspec`
+
+___
+Happy Coding!
